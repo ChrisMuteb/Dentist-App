@@ -9,6 +9,7 @@ import { OurservicesComponent } from './ourservices/ourservices.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { BookanappointmentComponent } from './bookanappointment/bookanappointment.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BookanappointmentComponent } from './bookanappointment/bookanappointmen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
