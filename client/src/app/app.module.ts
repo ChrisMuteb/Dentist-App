@@ -11,6 +11,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { BookanappointmentComponent } from './bookanappointment/bookanappointment.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { AppointmentformComponent } from './appointmentform/appointmentform.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     OurservicesComponent,
     ContactusComponent,
     AboutusComponent,
-    BookanappointmentComponent
+    BookanappointmentComponent,
+    AppointmentformComponent
   ],
   imports: [
     BrowserModule,
