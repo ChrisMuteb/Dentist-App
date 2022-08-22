@@ -4,6 +4,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { AppointmentformComponent } from './appointmentform/appointmentform.component';
 import { BookanappointmentComponent } from './bookanappointment/bookanappointment.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
 import { HomeComponent } from './home/home.component';
 import { NewpatientComponent } from './newpatient/newpatient.component';
 import { OurservicesComponent } from './ourservices/ourservices.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'about', component: AboutusComponent},
   {path: 'bookanappointment', component: BookanappointmentComponent},
   {path: 'bookanappointment/:id', component: AppointmentformComponent},
+  {path: 'errors', component: TestErrorsComponent},
   {path: '**', component: HomeComponent, pathMatch: 'full'},
 ];
 

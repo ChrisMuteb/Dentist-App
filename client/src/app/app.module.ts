@@ -12,6 +12,7 @@ import { BookanappointmentComponent } from './bookanappointment/bookanappointmen
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AppointmentformComponent } from './appointmentform/appointmentform.component';
+import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AppointmentformComponent } from './appointmentform/appointmentform.comp
     ContactusComponent,
     AboutusComponent,
     BookanappointmentComponent,
-    AppointmentformComponent
+    AppointmentformComponent,
+    TestErrorsComponent
   ],
   imports: [
     BrowserModule,
